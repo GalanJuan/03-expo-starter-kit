@@ -15,7 +15,7 @@ export default function TunnelScreen() {
   setTunelActivo(!tunelActivo);
   };
 
-  const tunelActivo = false;
+ 
 
   return (
     <SafeAreaView className="flex-1 bg-[#FFFDF9]" edges={['top', 'left', 'right']}>
