@@ -7,15 +7,12 @@ import { Badge } from '../../components/ui/Badge';
 import { Button } from '../../components/ui/Button';
 
 export default function PedidosScreen() {
-  // TODO [RETO 04 - PASO 1]: Declara dos estados simples usando useState:
-  // 1. 'total' para el dinero acumulado (inicializado en 0)
-  // 2. 'items' para la cantidad de productos (inicializado en 0)
+ 
   const [total, setTotal] = useState(0);
   const [items, setItems] = useState(0);
 
-  // TODO [RETO 04 - PASO 2]: Programa las funciones de suma directa al total y conteo de items:
   const agregarSanduche = () => {
-    // TODO: Sumar 1 a items y sumar 1.25 al total
+
     setItems(items + 1);
     setTotal(total + 1.25);
   };
